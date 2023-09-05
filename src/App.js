@@ -4,7 +4,8 @@ import Header from "./components/header";
 export const InputContext = createContext();
 
 function App () {
-  const [inputValue, setInputValue] = useState("Hello World");
+  const [inputValue, setInputValue] = useState("");
+  console.log(inputValue);
 
   const value = {
     inputValue, setInputValue
